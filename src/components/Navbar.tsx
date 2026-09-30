@@ -72,15 +72,14 @@ export const Navbar: React.FC<NavbarProps> = ({
               onClick={() => onSelectTab('landing')} 
               className="flex items-center gap-2.5 text-left focus:outline-hidden group shrink-0"
               id="brand-logo-btn"
-              title="GeM VerifyAI — From Documents to Trusted Decisions"
+              title="Tender Live — From Documents to Trusted Decisions"
             >
               <GeMLogo className="w-9 h-9 sm:w-10 sm:h-10 drop-shadow-xs group-hover:scale-105 transition-transform" />
               <div className="flex flex-col justify-center min-w-0">
                 <div className="flex items-center gap-1.5 whitespace-nowrap leading-none">
                   <span className="font-bold text-base sm:text-lg tracking-tight whitespace-nowrap">
-                    <span className="text-[#0F2C59]">GeM </span>
-                    <span className="text-[#166534]">Verify</span>
-                    <span className="text-[#0F2C59]">AI</span>
+                    <span className="text-[#0F2C59]">Tender </span>
+                    <span className="text-[#166534]">Live</span>
                   </span>
                   <span className="text-[9.5px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200 shrink-0">
                     GovTech

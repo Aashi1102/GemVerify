@@ -115,6 +115,12 @@ export interface Tender {
   evaluatingOfficer: string;
   requirements: TenderRequirement[];
   bidders: Bidder[];
+  sourceName?: 'GeM' | 'CPPP' | 'Manual';
+  sourceUrl?: string;
+  bidDetailUrl?: string;
+  pdfUrl?: string;
+  location?: string;
+  rawEligibility?: string;
 }
 
 export interface GovernmentDataSource {

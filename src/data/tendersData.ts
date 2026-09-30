@@ -74,12 +74,22 @@ export const INITIAL_GOVERNMENT_SOURCES: GovernmentDataSource[] = [
   {
     id: 'gem',
     name: 'GeM Portal',
-    statusText: '✓ Active',
-    subtext: 'Mock Data Feed',
+    statusText: '✓ Scraper Live',
+    subtext: 'bidplus.gem.gov.in',
     isOnline: true,
     type: 'live',
     latencyMs: 84,
-    description: 'Government e-Marketplace primary catalog, incident management blacklists, and past performance ratings.'
+    description: 'Government e-Marketplace primary catalog, bid publications, and vendor bids feed via bidplus.gem.gov.in scraper.'
+  },
+  {
+    id: 'cppp',
+    name: 'CPPP eProcure',
+    statusText: '✓ Scraper Live',
+    subtext: 'eprocure.gov.in',
+    isOnline: true,
+    type: 'live',
+    latencyMs: 120,
+    description: 'Central Public Procurement Portal active tenders published across Union Ministries, Departments, and Central PSUs.'
   }
 ];
 
@@ -87,8 +97,12 @@ export const INITIAL_TENDERS: Tender[] = [
   {
     id: 'GEM/2026/PROC/1024',
     title: 'IT Infrastructure & Cloud Procurement',
-    subtitle: 'Min 3 yrs exp, ₹50L turnover',
+    subtitle: 'Min 3 yrs exp, ₹50L turnover • GeM Live Procurement',
     department: 'Ministry of Electronics & IT',
+    sourceName: 'GeM',
+    sourceUrl: 'https://bidplus.gem.gov.in/all-bids',
+    bidDetailUrl: 'https://bidplus.gem.gov.in/all-bids',
+    location: 'New Delhi, India',
     estimatedValue: 'Est. ₹25.0 Lakhs',
     bidsCount: 8,
     bidsSubtext: '1 selected for demo',

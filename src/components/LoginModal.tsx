@@ -72,7 +72,7 @@ export const LoginModal: React.FC<LoginModalProps> = ({
               </div>
               <div>
                 <h3 className="text-lg font-bold tracking-tight">Officer Authentication</h3>
-                <p className="text-xs text-blue-200">GeM VerifyAI — Sovereign Procurement Portal</p>
+                <p className="text-xs text-blue-200">Tender Live — Sovereign Procurement Portal</p>
               </div>
             </div>
             <button

@@ -52,7 +52,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 sm:h-18 gap-4">
-            {/* Left: GeM VerifyAI Brand Logo */}
+            {/* Left: Tender Live Brand Logo */}
             <div className="flex items-center gap-3 min-w-0">
               <button 
                 onClick={() => scrollToSection('hero-section', 'home')}
@@ -61,9 +61,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                 <GeMLogo className="w-10 h-10 sm:w-11 sm:h-11 drop-shadow-xs group-hover:scale-105 transition-transform" />
                 <div className="flex flex-col justify-center min-w-0">
                   <span className="font-extrabold text-xl tracking-tight whitespace-nowrap leading-tight">
-                    <span className="text-[#0F2C59]">GeM </span>
-                    <span className="text-[#166534]">Verify</span>
-                    <span className="text-[#0F2C59]">AI</span>
+                    <span className="text-[#0F2C59]">Tender </span>
+                    <span className="text-[#166534]">Live</span>
                   </span>
                   <span className="text-[12px] text-slate-500 font-normal truncate leading-tight">
                     AI-Powered Bid Compliance &amp; Risk Intelligence
@@ -106,7 +105,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               </button>
             </nav>
 
-            {/* Right: Login & Explore Prototype buttons */}
+            {/* Right: Login & Explore buttons */}
             <div className="flex items-center gap-3 shrink-0">
               <button
                 onClick={onOpenLogin}
@@ -118,7 +117,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                 onClick={onExplorePrototype}
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#0066cc] hover:bg-[#0052a3] text-white text-sm font-semibold rounded-lg shadow-sm transition-all hover:shadow"
               >
-                <span>Explore Prototype</span>
+                <span>Explore</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
@@ -136,7 +135,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
         {/* Full-width background image layer */}
         <img
           src="/hero-bg.png"
-          alt="GeM VerifyAI National Procurement Intelligence Platform"
+          alt="Tender Live National Procurement Intelligence Platform"
           className="absolute inset-0 w-full h-full object-fill object-center pointer-events-none z-0"
           style={{ width: '100%', height: '100%', objectFit: 'fill', objectPosition: 'center' }}
         />
@@ -174,7 +173,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
 
               {/* Subheading text */}
               <p className="text-base sm:text-lg text-slate-700 max-w-xl leading-relaxed font-medium">
-                GeM VerifyAI helps procurement teams understand tender requirements, verify bidder compliance, identify discrepancies and make faster, evidence-based decisions.
+                Tender Live helps procurement teams understand tender requirements, verify bidder compliance, identify discrepancies and make faster, evidence-based decisions.
               </p>
 
               {/* Bold single line value claim */}
@@ -188,7 +187,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                   onClick={onExplorePrototype}
                   className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#0066cc] hover:bg-[#0052a3] text-white font-semibold rounded-lg text-sm sm:text-base shadow-md hover:shadow-lg transition-all"
                 >
-                  <span>Explore the Prototype</span>
+                  <span>Explore</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
 
@@ -410,7 +409,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                   </h2>
                 </div>
                 <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                  GeM VerifyAI brings tender understanding, document verification, authorised source checks, cross-document validation, tender-specific compliance rules, risk scoring and evidence-backed recommendations into one intelligent workflow.
+                  Tender Live brings tender understanding, document verification, authorised source checks, cross-document validation, tender-specific compliance rules, risk scoring and evidence-backed recommendations into one intelligent workflow.
                 </p>
               </div>
 
@@ -418,7 +417,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                 onClick={onExplorePrototype}
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#0066cc] hover:bg-[#0055aa] text-white rounded-lg text-xs sm:text-sm font-semibold shadow-xs transition-colors self-start md:self-auto shrink-0"
               >
-                <span>Explore Prototype</span>
+                <span>Explore</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
@@ -611,7 +610,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       </section>
 
       {/* ================================================== */}
-      {/* 6. WHY GEM VERIFYAI? (Placed right after How It Works) */}
+      {/* 6. WHY TENDER LIVE? (Placed right after How It Works) */}
       {/* ================================================== */}
       <section id="features-section" className="py-12 bg-[#f9fbff] border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -619,7 +618,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             <div className="flex items-center gap-2 mb-2">
               <span className="text-amber-500 text-xl">⭐</span>
               <h2 className="text-2xl sm:text-3xl font-bold text-[#0F2C59] tracking-tight">
-                Why GeM VerifyAI?
+                Why Tender Live?
               </h2>
             </div>
             <p className="text-sm sm:text-base text-slate-600">
@@ -704,7 +703,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                 <h3 className="text-xl font-bold text-[#0F2C59]">Built for Responsible Procurement</h3>
               </div>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                GeM VerifyAI does not replace the Procurement Officer. It provides source-linked evidence, compliance insights, risk signals and explainable recommendations so authorised officers can make informed decisions.
+                Tender Live does not replace the Procurement Officer. It provides source-linked evidence, compliance insights, risk signals and explainable recommendations so authorised officers can make informed decisions.
               </p>
             </div>
 
@@ -758,7 +757,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               Turn compliance complexity into trusted decisions.
             </h2>
             <p className="text-xs sm:text-sm text-blue-100/90 mt-1">
-              Explore how GeM VerifyAI transforms fragmented bid verification into an evidence-based, explainable workflow.
+              Explore how Tender Live transforms fragmented bid verification into an evidence-based, explainable workflow.
             </p>
           </div>
 
@@ -767,7 +766,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               onClick={onExplorePrototype}
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-white hover:bg-slate-100 text-[#0F2C59] font-bold rounded-lg text-xs sm:text-sm shadow-xs transition-colors"
             >
-              <span>Explore the Prototype</span>
+              <span>Explore</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </button>
             <button
@@ -791,7 +790,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                 G
               </div>
               <div>
-                <span className="font-bold text-[#0F2C59] text-sm">GeM VerifyAI</span>
+                <span className="font-bold text-[#0F2C59] text-sm">Tender Live</span>
                 <p className="text-[11px] text-slate-500">AI-Powered Bid Compliance &amp; Risk Intelligence Platform</p>
               </div>
             </div>
@@ -799,7 +798,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             <div className="flex flex-wrap items-center gap-6 text-slate-600 text-xs">
               <button onClick={() => scrollToSection('hero-section', 'home')} className="hover:text-[#0066cc]">Home</button>
               <button onClick={() => scrollToSection('how-it-works-detail', 'how-it-works')} className="hover:text-[#0066cc]">How It Works</button>
-              <button onClick={() => scrollToSection('features-section', 'features')} className="hover:text-[#0066cc]">Why GeM VerifyAI</button>
+              <button onClick={() => scrollToSection('features-section', 'features')} className="hover:text-[#0066cc]">Why Tender Live</button>
               <button onClick={onExplorePrototype} className="hover:text-[#0066cc]">Reports</button>
               <button onClick={onExplorePrototype} className="hover:text-[#0066cc]">Audit Trail</button>
             </div>

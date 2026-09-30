@@ -5,7 +5,7 @@ export const Footer: React.FC = () => {
     <footer className="mt-12 border-t border-slate-200 bg-white py-6 px-4 sm:px-6 lg:px-8 text-xs text-slate-500">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
         <div>
-          <span className="font-semibold text-slate-700">GeM VerifyAI</span> — AI-Assisted Bid Compliance Verification Platform
+          <span className="font-semibold text-slate-700">Tender Live</span> — AI-Assisted Bid Compliance Verification Platform
         </div>
         <div className="flex items-center gap-2">
           <span>Official GeM Compliance Verification Suite</span>

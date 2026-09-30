@@ -17,7 +17,7 @@ async function startServer() {
   app.get("/api/health", (_req, res) => {
     res.json({
       status: "ok",
-      service: "GeM VerifyAI Scraper Engine",
+      service: "Tender Live Scraper Engine",
       time: new Date().toISOString()
     });
   });
@@ -300,7 +300,7 @@ async function startServer() {
   }
 
   app.listen(PORT, "0.0.0.0", () => {
-    console.log(`GeM VerifyAI Full-Stack Server with Scraper Engine running on http://0.0.0.0:${PORT}`);
+    console.log(`Tender Live Full-Stack Server with Scraper Engine running on http://0.0.0.0:${PORT}`);
   });
 }
 

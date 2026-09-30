@@ -1,5 +1,5 @@
 {
-  "name": "GeM VerifyAI",
+  "name": "Tender Live",
   "description": "AI-assisted, evidence-based bid compliance verification and procurement risk evaluation platform for Government e-Marketplace officers.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

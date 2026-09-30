@@ -12,7 +12,7 @@ export const GeMLogo: React.FC<GeMLogoProps> = ({ className = "w-10 h-10", size 
     return (
       <img
         src="/gem-logo.png"
-        alt="GeM VerifyAI National Procurement Intelligence Logo"
+        alt="Tender Live National Procurement Intelligence Logo"
         width={size}
         height={size}
         className={`${className} object-contain shrink-0`}
@@ -30,7 +30,7 @@ export const GeMLogo: React.FC<GeMLogoProps> = ({ className = "w-10 h-10", size 
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
-      aria-label="GeM VerifyAI Logo"
+      aria-label="Tender Live Logo"
     >
       <defs>
         {/* Saffron Arc Gradient */}

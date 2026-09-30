@@ -102,7 +102,7 @@ export const ReportsScreen: React.FC<ReportsScreenProps> = ({
         <div className="pt-8 border-t border-slate-300 grid grid-cols-2 gap-8 text-xs">
           <div className="space-y-1">
             <p className="text-slate-500">Evaluated By (AI-Assisted System):</p>
-            <p className="font-semibold text-slate-900">GeM VerifyAI Engine v2.4</p>
+            <p className="font-semibold text-slate-900">Tender Live Engine v2.4</p>
             <p className="text-[11px] font-mono text-slate-500">Algorithm Build: SHA-256 Validated</p>
           </div>
           <div className="space-y-1 text-right">
